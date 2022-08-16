@@ -2,7 +2,6 @@
 var currentDay = $(".time")
 var hour = moment().format("HH")
 console.log(hour)
-var checkHour
 var container= $(".container")
 currentDay.text( moment().format("MMMM Do YYYY"))
 container.click(saveTodo)
